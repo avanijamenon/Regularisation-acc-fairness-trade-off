@@ -1,8 +1,2 @@
-# Regularisation-acc-fairness-trade-off
-This project explores the trade-off between accuracy and fairness in machine learning models to promote equity and inclusivity in automated decision-making. Using logistic regression as the baseline, various methods were implemented:
-
-- Standard Model: Evaluates accuracy and fairness using regularization strength.
-- Fairness-Aware Model: Implements reweighing techniques to balance outcomes for privileged and unprivileged groups.
-- Combined Model: Optimises a weighted trade-off between accuracy and fairness.
-  
-The results highlight the challenges and opportunities in mitigating biases without significantly compromising performance. Extended analyses include cross-dataset evaluations and proposed directions for future research.
+# Accuracy-Fairness Trade-off in ML Model Selection 
+This repository investigates algorithmic fairness in machine learning by comparing standard logistic regression, reweighed logistic regression, and a combined approach that balances accuracy and fairness. The primary metric of fairness is equality of opportunity, measured by the difference in true positive rates between privileged and unprivileged groups. Experiments demonstrate how varying the regularization parameter 𝐶 affects both accuracy and fairness. A combination model is proposed to address the inherent trade-offs, with extended tasks assessing generalisation. Future directions include testing other algorithms, employing additional fairness metrics, and exploring in-processing or post-processing fairness techniques to further refine model performance.
